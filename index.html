@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Caverna</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="Entrada de uma caverna">
+            <p>Em um dia chuvoso você encontra uma caverna misteriosa dentro de um pequeno bosque, e ouve barulhos vindo de dentro dela.</p>
+            <button class="btn-proximo" data-proximo="1">Entrar e investigar.</button>
+            <button class="btn-proximo" data-proximo="2">Entrar e esperar a chuva passar.</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Entrando na caverna você vê rastros de lama, como se alguem entrou carregando algo bem pesado. Você se assusta a ouvir gritos de mais fundo na caverna.</p>
+            <button class="btn-proximo" data-proximo="3">Entrar mais a fundo com cautela.</button>
+            <button class="btn-proximo" data-proximo="4">Sair correndo da caverna.</button>
+        </div>
+        
+         <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2-11.jpg" alt="Saída de um bosque">
+            <p>Sem muito interesse na caverna, você sai e segue seu caminho como se nada tivesse acontecido.</p>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Quanto mais fundo mais escurece seu campo de visão, você lembra que tem um lampião em sua bolsa, ao acender vê vários pedaços de ossos e algumas moedas como se a pessoa que acaba de passar ali deixasse cair.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir em frente.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você sai correndo de medo da caverna no meio da chuva, e sente que esse não é seu dia de sorte.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você se vê diante de uma bifurcação.</p>
+            <button class="btn-proximo" data-proximo="6">Seguir pela esquerda.</button>
+            <button class="btn-proximo" data-proximo="7">Seguir pela direita.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você vê um luz parecida com a de seu lampião a frente, ao se aproximar existe um grande baú com um esqueleto ao lado, e alguns passos indo para o caminho que você veio, provavelmente alguem acabou de fugir daqui.</p>
+            <button class="btn-proximo" data-proximo="8">Pegar o tesouro para si.</button>
+            <button class="btn-proximo" data-proximo="9">Se assustar com o esqueleto e correr até a saída.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você vê a luz do dia no final da caverna e percebe que já parou de chover.</p>
+            <button class="btn-proximo" data-proximo="10">Voltar e ver o que havia no outro lado.</button>
+            <button class="btn-proximo" data-proximo="11">Sair da caverna.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo8.jpg" alt="Achando um baú do tesouro">
+            <p>Você ignora o esqueleto e abre o baú encontrando uma quantidade imensa de moedas, percebendo que hoje é seu dia de sorte!</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você corre o máximo que consegue, nunca mais querendo entrar em uma caverna desconhecida.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você vê um luz parecida com a de seu lampião a frente, ao se aproximar existe um grande baú com um esqueleto ao lado, e alguns passos indo para o caminho que você veio, provavelmente alguem acabou de fugir daqui.</p>
+            <button class="btn-proximo" data-proximo="8">Pegar o tesouro para si.</button>
+            <button class="btn-proximo" data-proximo="9">Se assustar com o esqueleto e correr até a saída.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo2-11.jpg" alt="Saída de um bosque">
+            <p>Sem muito interesse na caverna, você sai e segue seu caminho como se nada tivesse acontecido.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
